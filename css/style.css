@@ -1,0 +1,522 @@
+html,body
+ {
+    font-size: 16px;
+    font-family: 'Cubano-Regular';
+    font-weight: bold;
+    background: url('../img/pattern.jpg') center center;
+}
+
+@font-face 
+{
+    font-family: 'Cubano-Regular';
+    src: local('Cubano-Regular.otf'), url('Cubano-Regular.otf') format('opentype');
+}
+
+@font-face 
+{
+    font-family: 'Nunito-Regular';
+    src: local('Nunito-Regular.ttf'), url('Nunito-Regular.ttf') format('truetype');
+}
+
+/* NAVBAR */
+
+.nav-item a
+{
+    border-bottom:1px solid transparent;
+    transition:0.5s;
+}
+
+.nav-item a:hover
+{
+    border-bottom:1px solid green;
+    transition:0.5s;
+}
+
+#cover
+{
+    background-color:darkgrey;
+    height: 100%;
+    background: url('../img/trees.jpg') 70% 80%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    margin:25px; /* Navbar fixed top removed the margin/padding after adding the fixed class */
+}
+
+.bold-green 
+{
+    font-weight: bold;
+    color: rgba(19, 128, 16, 0.9);
+}
+
+.green-underline {
+    text-decoration: underline;
+    color: rgba(19, 128, 16, 0.9);
+}
+
+.fas,.far
+{
+    /*float:left;
+    margin-right:15px; */
+}
+
+.left-float
+{
+    float:left;
+    position:relative;
+    top:5px;
+    margin-right:15px;
+}
+
+.maininfo
+{
+    margin-top:50px;
+    margin-bottom:20px;
+    background: rgba(0, 0, 0, 0.4);
+    padding:25px;
+}
+
+.profile-pic
+{
+    margin:50px 15px 20px 100px;
+}
+
+.itsme
+{
+    height:80%;
+    width:80%;
+}
+
+#collapsingNavbar
+{
+    font-family: 'Cubano-Regular';
+}
+
+.navbar-toggler
+{
+    color:white;
+}
+
+/* TECHNOLOGIES ICONS ABOUT ME */
+
+.h2-center, .lead-center
+{
+    margin:50px 0;
+    text-align:center;
+}
+
+.section-technologies
+{
+    margin:0 35px;  
+}
+
+div.col-sm-3.feature-icons
+{
+    text-align:center;
+}
+
+div.col-sm-3.feature-icons i
+{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+/* TECHNOLOGY ITEMS HOVER */
+
+div.col-sm-3.feature-icons:first-child:hover
+{
+    color:#E44D26;
+    transition: 0.3s;
+}
+
+div.col-sm-3.feature-icons:last-child:hover
+{
+    color:#777BB3;
+    transition: 0.3s;
+}
+
+div.col-sm-3.feature-icons.css-item:hover
+{
+    color:#0C73B8;
+}
+
+div.col-sm-3.feature-icons.js-item:hover
+{
+    color:#F7DF1E;
+}
+
+div.col-sm-3.feature-icons.bt-item:hover
+{
+    color:#5E4088;
+}
+
+div.col-sm-3.feature-icons.git-item:hover
+{
+    color:#F05033;
+}
+
+div.col-sm-3.feature-icons.github-item:hover
+{
+    color:#53297B;
+}
+
+div.col-sm-3.feature-icons.sql-item:hover
+{
+    color:#FFA230;
+}
+
+
+.feature-icons p {
+    padding-top: 1rem;
+    font-family: 'Nunito-Regular';
+    font-size: 2rem;
+}
+
+.feature-hr
+{
+    margin-bottom:-10px;
+}
+
+.description
+{
+    width:70%;
+    text-align:center;
+    margin:0px auto;
+    margin-top:25px;
+    margin-bottom:50px;
+    background: rgba(0, 0, 0, 0.6);
+    padding:25px;
+}
+
+.desc-text
+{
+    color:white;
+    font-weight: normal;
+}
+
+/* EXPERIENCE */
+
+#experience
+{
+    background-color: #fff;
+}
+
+.h2-center
+{
+    padding-top:50px;
+}
+
+.workplace-item
+{
+    padding:0 65px;
+    text-align: justify;
+}
+
+.item-desc
+{
+    margin:10px 0;
+}
+
+.item-date
+{
+    position:relative;
+    left:65%;
+    margin-bottom:50px;
+}
+
+#section-parallax {
+    text-align: center;
+    background: url(../img/trees.jpg) center repeat fixed;
+    background-size: cover;
+    padding:160px;
+    color: white;
+}
+
+.parallax-btn
+{
+    width:200px;
+    margin:0px auto;
+    margin-top:25px;
+}
+
+.btn-success-outline:hover,
+.btn-success-outline:focus,
+.btn-success-outline:active
+{
+    background-color: rgba(19, 128, 36, 0.54);
+    border: 1px solid rgba(19, 128, 25, 0);
+    transition: 0.5s;
+}
+
+.lang-div
+{
+    margin-top:100px;
+    font-size:2rem;
+}
+
+#hidden
+{
+    display:none;
+    list-style-type: none;
+}
+
+.language-list
+{
+    list-style-type: none;
+}
+
+.centered
+{
+    text-align:center;
+}
+
+.item-title .spantext
+{
+    position:relative;
+    top:-20px;
+}
+
+.item-title .righttext
+{
+    position: relative;
+    top:-30px !important;
+}
+
+#others
+{
+    margin-bottom:50px;
+}
+
+/* FOOTER */
+
+#footer
+{
+    background: #5E5E5E;
+    padding-top:50px;
+    color:white;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.social-links li
+{
+    float:left;
+    margin-right:75px;
+}
+
+.social-links li:last-child
+/* dont need padding-right for the last li */
+{
+    margin-right: 0;
+}
+
+.social-links
+{
+    list-style-type: none;
+}
+
+.scroll-to-top-button
+{
+    position:relative;
+    top:-10px;
+}
+
+.fa-chevron-circle-up
+{
+    color:#5CB85C;
+}
+
+.fa-chevron-circle-up:hover
+{
+    color:rgba(19, 128, 36);
+}
+
+.social-links li a,
+.social-links li a:visited 
+{
+    text-decoration: none;
+    border: 0;
+    color: #F1F1F1;
+    transition: 0.3s;
+}
+
+.social-links
+{
+    position:relative;
+    top:-5px;
+}
+
+.fa-facebook-square:hover
+{
+    color:#547CD3;
+}
+
+.fa-youtube-square:hover {
+    color:#FF0000;
+}
+
+.fa-linkedin:hover {
+    color: #4DADF7;
+}
+
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width:1024px)
+{
+    .spantext
+    {
+        margin-top: 35px;
+        display:block;
+    }
+
+    .fa-id-card
+    {
+        position:relative;
+        top:-12px;
+    }
+
+    .item-title .righttext
+    {
+        position:relative;
+        top:-36px !important;
+    }
+
+    .social-links
+    {
+        font-size:14px;
+    }
+
+    .social-links li
+    {
+        margin-right:20px;        
+    }
+
+
+
+}
+
+@media only screen and (max-width:667px)
+{
+    .infos
+    {
+        text-align: center;
+    }
+
+    .info-text
+    {
+        font-size:0.7rem;
+        position:relative;
+        top:5px;
+    }
+
+    .maininfo h1
+    {
+        font-size:30px;
+        text-align:center;
+    }
+
+    .maininfo h2
+    {
+        font-size:20px;
+        text-align: center;
+    }
+
+    .profile-pic
+    {
+        width:100%;
+        margin:0px auto !important;
+    }
+
+    .profile-pic .itsme
+    {
+        width:50%;
+        height:50%;
+        position:relative;
+        left:25%;
+        margin-bottom:25px;
+    }
+
+    .item-date
+    {
+        text-align: center;
+        position:relative;
+        left:0px;
+    }
+
+    .workplace-item
+    {
+        text-align: center;
+    }
+
+    #section-parallax
+    {
+        padding:30px !important;
+    }
+
+    #hidden
+    {
+        font-size:20px;
+        text-align: center;
+        position:relative;
+        left:-20px;
+        margin-top:0px;   
+    } 
+
+    .fa-id-card
+    {
+        position:relative;
+        margin-bottom:-10px;
+    }
+
+    .social-links
+    {
+        font-size:12px;
+    }
+
+    .social-links li
+    {
+        margin-right:50px;    
+    }
+
+    .social-links li:last-child
+    {
+        margin-right:50px !important;
+    }
+
+    .scroll-to-top-button
+    {
+        font-size:10px;
+        margin-right:0px;
+
+    }
+
+    .myName
+    {
+        margin-top:-25px;
+    }
+
+    .fa-facebook-square
+    {
+        color:#547CD3;
+    }
+
+    .fa-youtube-square
+    {
+        color:#FF0000;
+    }
+
+    .fa-linkedin
+    {
+        color:#4DADF7;
+    }
+}
+
+
+
+
+
